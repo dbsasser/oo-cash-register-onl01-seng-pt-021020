@@ -17,7 +17,7 @@ def apply_discount
     
   else
     @total = @total - ((@total * @discount) / 100)
-    puts "After the discount, the total comes to $#{@total}."
+    return "After the discount, the total comes to $#{@total}."
   end
 end
 end 
