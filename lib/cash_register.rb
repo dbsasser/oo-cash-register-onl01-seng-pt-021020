@@ -29,7 +29,7 @@ def items
   @@item_array
 end
 
-def void_last transaction 
+def void_last_transaction 
   @total -= @@last_transaction
 end 
 
