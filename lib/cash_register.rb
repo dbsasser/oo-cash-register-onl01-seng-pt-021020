@@ -13,9 +13,9 @@ def initialize(discount=0)
 end 
 
 def add_item(title, price, quantity=1)
-  @@ITEMS << title
- @total += price * quantity  
- @@last_transaction = price * quantity 
+  @items<< title
+  @total += price * quantity  
+  @last_transaction = price * quantity 
 end
 
 def apply_discount
@@ -28,11 +28,11 @@ def apply_discount
 end
 
 def items
-  @@item_array
+  @items
 end
 
 def void_last_transaction 
-  @total -= @@last_transaction
+  @total -= @last_transaction
 end 
 
 end 
