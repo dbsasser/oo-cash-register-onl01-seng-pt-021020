@@ -2,6 +2,7 @@
 class CashRegister
 
 attr_accessor :total, :discount
+
 @@ITEMS = []
 @@last_transaction = 0
 
