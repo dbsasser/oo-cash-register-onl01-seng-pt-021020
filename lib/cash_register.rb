@@ -8,7 +8,7 @@ def initialize(discount=0)
   @discount = discount
 end 
 
-def add_item(title, price, quanity=1)
+def add_item(title, price, quantity=1)
  @total =+ price * quantity    
 end
 
